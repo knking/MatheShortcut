@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrimeNum">
+
+    <EditText
+        android:id="@+id/prime"
+        android:layout_width="378dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="449dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Enter Number For Check"
+        android:gravity="center"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="138dp"
+        android:layout_height="27dp"
+        android:layout_marginBottom="335dp"
+        android:layout_marginEnd="127dp"
+        android:layout_marginLeft="119dp"
+        android:layout_marginRight="127dp"
+        android:layout_marginStart="119dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="RESULT"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/find"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/pout"
+        android:layout_width="371dp"
+        android:layout_height="309dp"
+        android:layout_marginBottom="3dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="23dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/find"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginLeft="133dp"
+        android:layout_marginRight="163dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="14dp"
+        android:text="FIND"
+        app:layout_constraintBottom_toTopOf="@+id/prime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prime"
+        app:layout_constraintVertical_bias="0.0" />
+</android.support.constraint.ConstraintLayout>

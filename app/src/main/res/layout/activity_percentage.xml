@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Percentage">
+
+    <EditText
+        android:id="@+id/pernumber"
+        android:layout_width="375dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="18dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Total Marks"
+        android:inputType="number"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/persecnumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/persecnumber"
+        android:layout_width="377dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="21dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="18dp"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter Your Marks"
+        android:inputType="numberDecimal"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/perfind"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pernumber" />
+
+    <Button
+        android:id="@+id/perfind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="318dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginRight="149dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorLime"
+        android:text="FIND"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/persecnumber" />
+
+    <TextView
+        android:id="@+id/perresult"
+        android:layout_width="198dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginLeft="106dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="Your Percentage is"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perfind" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        tools:layout_editor_absoluteX="162dp"
+        tools:layout_editor_absoluteY="280dp" />
+
+</android.support.constraint.ConstraintLayout>
