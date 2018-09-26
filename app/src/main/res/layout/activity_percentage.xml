@@ -18,7 +18,7 @@
         android:layout_marginTop="5dp"
         android:ems="10"
         android:gravity="center"
-        android:hint="Enter Total Marks"
+        android:hint="Enter Total Number"
         android:inputType="number"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/persecnumber"
@@ -28,22 +28,19 @@
 
     <EditText
         android:id="@+id/persecnumber"
-        android:layout_width="377dp"
+        android:layout_width="384dp"
         android:layout_height="45dp"
         android:layout_marginBottom="21dp"
-        android:layout_marginEnd="1dp"
-        android:layout_marginLeft="6dp"
-        android:layout_marginRight="1dp"
-        android:layout_marginStart="6dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginStart="1dp"
         android:layout_marginTop="18dp"
         android:ems="10"
         android:gravity="center"
-        android:hint="Enter Your Marks"
+        android:hint="Enter Obtain Number"
         android:inputType="numberDecimal"
         android:textSize="24sp"
         app:layout_constraintBottom_toTopOf="@+id/perfind"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/pernumber" />
 
@@ -84,11 +81,20 @@
         app:layout_constraintTop_toBottomOf="@+id/perfind" />
 
     <TextView
-        android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="280dp" />
+        android:id="@+id/perout"
+        android:layout_width="366dp"
+        android:layout_height="34dp"
+        android:layout_marginBottom="231dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="3dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perresult" />
 
 </android.support.constraint.ConstraintLayout>

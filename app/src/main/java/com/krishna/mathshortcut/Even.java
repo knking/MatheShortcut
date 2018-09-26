@@ -33,6 +33,7 @@ public class Even extends AppCompatActivity {
 
                     if(i % 2==0)
                    {
+
                         ev_out.setText(i);
                     }
                 }
